@@ -36,6 +36,9 @@
 
 
         <script type="text/javascript">
+            let intViewportWidth = window.innerWidth;
+			let intViewportHeight = window.innerHeight;
+
             function loadApp() {
 
                 $('#canvas').fadeIn(1000);
@@ -54,11 +57,11 @@
 
                     // Magazine width
 
-                    width: 1440,
+                    width: intViewportWidth,
 
                     // Magazine height
 
-                    height: 600,
+                    height: intViewportHeight,
 
                     // Duration in millisecond
 
